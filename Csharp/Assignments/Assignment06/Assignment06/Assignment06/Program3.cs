@@ -5,6 +5,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.IO;
 
+
+
+
+//3. Write a program in C# Sharp to count the number of lines in a file.
+
+
+
 namespace Assignment_6
 {
     class StreamRead
