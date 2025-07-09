@@ -21,10 +21,12 @@ namespace Assessment_2
         {
             return $"Product Id:{product_id},Product name:{product_name},Price:{price}";
         }
+
         public int CompareTo(Products anotherobj)
         {
             return this.price.CompareTo(anotherobj.price);
         }
+
         static void Main(string[] args)
         {
             List<Products> product = new List<Products>();
