@@ -1,0 +1,7 @@
+C:\Infinite_training\ADO\Assessments\Assessment_1\Employee_details\Employee_details\bin\Debug\Employee_details.exe.config
+C:\Infinite_training\ADO\Assessments\Assessment_1\Employee_details\Employee_details\bin\Debug\Employee_details.exe
+C:\Infinite_training\ADO\Assessments\Assessment_1\Employee_details\Employee_details\bin\Debug\Employee_details.pdb
+C:\Infinite_training\ADO\Assessments\Assessment_1\Employee_details\Employee_details\obj\Debug\Employee_details.csproj.AssemblyReference.cache
+C:\Infinite_training\ADO\Assessments\Assessment_1\Employee_details\Employee_details\obj\Debug\Employee_details.csproj.CoreCompileInputs.cache
+C:\Infinite_training\ADO\Assessments\Assessment_1\Employee_details\Employee_details\obj\Debug\Employee_details.exe
+C:\Infinite_training\ADO\Assessments\Assessment_1\Employee_details\Employee_details\obj\Debug\Employee_details.pdb
