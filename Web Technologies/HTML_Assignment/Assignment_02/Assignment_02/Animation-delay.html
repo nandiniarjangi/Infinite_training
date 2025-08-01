@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .circle {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            background-color: dodgerblue;
+            animation: pulse 2s ease-in-out 1;
+            animation-delay: 1s;
+        }
+
+        @keyframes pulse {
+            0% {
+                transform: scale(1);
+            }
+
+            50% {
+                transform: scale(1.5);
+            }
+
+            100% {
+                transform: scale(1);
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="circle" id="myCircle"></div>
+
+    <button onclick="restartAnimation()">Restart Animation</button>
+
+    <script>function restartAnimation() {
+      const el = document.getElementById('myCircle');
+      el.classList.remove('circle');
+      void el.offsetWidth; 
+      el.classList.add('circle');
+    }</script>
+
+</body>
+</html>

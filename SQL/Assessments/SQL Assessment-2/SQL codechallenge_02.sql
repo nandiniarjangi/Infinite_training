@@ -9,6 +9,7 @@ select DATEDIFF(DAY,'2002-11-10',getdate()) as AGE
 --3. Write a query to display all employees information those who joined before 5 years in the current month
 
 select * from Employee where Hire_date <=DATEADD(year,-5,getdate()) and month(Hire_date)=month(getdate())
+
 update Employee set hire_date='1983-07-22' where empno=7521
 
 --4.transaction

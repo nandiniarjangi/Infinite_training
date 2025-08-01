@@ -14,7 +14,7 @@ create procedure insert_employee_details
     @name nvarchar(100),@givensalary decimal(10,2),@gender char(1), @generatedempid int output
 as
 begin
-  set nocount on;
+  
 
  declare @salary decimal(10,2) = @givensalary * 0.90;
  declare @netsalary decimal(10,2) = @salary * 0.90;
@@ -41,7 +41,7 @@ select @newempid as new_employee_id;
  
 create procedure update_employee_salary
  @empid int, @updatedsalary decimal(10,2) output
-as begin set nocount on;
+as begin 
 
 update employee_details
 set salary = salary + 100
