@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>jQuery Single Element</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+
+    <ul>
+        <li>CSHARP</li>
+        <li>SQL</li>
+        <li>ADO</li>
+    </ul>
+
+    <script>$(document).ready(function() {
+    
+    var secondItem = $("li").eq(1);
+
+    
+    secondItem.css("background-color", "lightgreen");
+
+    
+    console.log("Second item is:", secondItem.text());
+  });</script>
+
+</body>
+</html>

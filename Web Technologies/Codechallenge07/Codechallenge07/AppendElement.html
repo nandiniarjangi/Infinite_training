@@ -1,0 +1,24 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Append on Input Change</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+
+  
+    <input type="text" id="myInput" placeholder="Type something..." />
+
+    <div id="messageContainer"></div>
+
+    <script>
+        $(document).ready(function () {
+            $("#myInput").change(function () {
+               
+                $("#messageContainer").append("<p>You changed the input!</p>");
+            });
+        });
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Calculation</title>
+</head>
+<body>
+    <form id="cal" method="post" action="Q-1.html">
+        1 st Number : &nbsp;&nbsp;&nbsp;
+        <input type="number" name="n1" id="num1" />
+        <br /><br />
+        2 nd Number : &nbsp;&nbsp;&nbsp;
+        <input type="number" name="n2" id="num2" />
+        <br /><br />
+        <button id="mul" onclick="DoMultiplication()" type="button">Multiply</button>
+        <br /><br />
+        <button id="div" onclick="DoDivision()" type="button">Divide</button>
+        <br />
+        <p id="result">The Result : </p>
+        <script>function DoMultiplication() {
+                var a = document.getElementById('num1').value;
+                var b = document.getElementById('num2').value;
+                var r1 = a * b;
+                document.getElementById('result').innerHTML = "Multiplication : " + r1;
+            }
+            function DoDivision() {
+                var a = document.getElementById('num1').value;
+                var b = document.getElementById('num2').value;
+                var r2 = a / b;
+                document.getElementById('result').innerHTML = "Division : " + r2;
+            }</script>
+    </form>
+</body>
+</html>
