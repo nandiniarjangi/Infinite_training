@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{30F83137-710F-4902-BAC9-5B968A06D148}</ProjectGuid>
+    <ProjectGuid>{4B0587A7-8C26-476B-9833-0B8F89182C9D}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Codechallenge07</RootNamespace>
-    <AssemblyName>Codechallenge07</AssemblyName>
+    <RootNamespace>Mini_Project</RootNamespace>
+    <AssemblyName>Mini_Project</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -32,6 +32,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>Mini_Project.Program</StartupObject>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -43,22 +46,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Admin.cs" />
+    <Compile Include="AdminOperations.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="User.cs" />
+    <Compile Include="UserOperations.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="AppendElement.html" />
-    <Content Include="H1Elements.html" />
-    <Content Include="HideOddTableRows.html" />
-    <Content Include="jqueryIndex.html" />
-    <Content Include="jquerySingleElement.html" />
-    <Content Include="js1.html" />
-    <Content Include="js2.html" />
-    <Content Include="js3.html" />
-    <Content Include="message.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

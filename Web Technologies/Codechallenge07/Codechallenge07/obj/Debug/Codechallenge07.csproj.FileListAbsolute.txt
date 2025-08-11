@@ -1,0 +1,7 @@
+C:\Infinite_training\Web Technologies\Codechallenge07\Codechallenge07\bin\Debug\Codechallenge07.exe.config
+C:\Infinite_training\Web Technologies\Codechallenge07\Codechallenge07\bin\Debug\Codechallenge07.exe
+C:\Infinite_training\Web Technologies\Codechallenge07\Codechallenge07\bin\Debug\Codechallenge07.pdb
+C:\Infinite_training\Web Technologies\Codechallenge07\Codechallenge07\obj\Debug\Codechallenge07.csproj.AssemblyReference.cache
+C:\Infinite_training\Web Technologies\Codechallenge07\Codechallenge07\obj\Debug\Codechallenge07.csproj.CoreCompileInputs.cache
+C:\Infinite_training\Web Technologies\Codechallenge07\Codechallenge07\obj\Debug\Codechallenge07.exe
+C:\Infinite_training\Web Technologies\Codechallenge07\Codechallenge07\obj\Debug\Codechallenge07.pdb
