@@ -1,0 +1,22 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="EB_Prj.Site" %>
+
+<!DOCTYPE html>
+<html>
+<head runat="server">
+    <title>Electricity Board Billing</title>
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="header">Electricity Board – Billing Automation</div>
+        <div class="nav">
+            <asp:HyperLink ID="lnkBills" runat="server" NavigateUrl="~/Bills.aspx">Bills</asp:HyperLink>
+            <asp:HyperLink ID="lnkLogout" runat="server" NavigateUrl="~/Login.aspx">Logout</asp:HyperLink>
+        </div>
+        <div class="content">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server"/>
+        </div>
+        <div class="footer">© Electricity Board</div>
+    </form>
+</body>
+</html>

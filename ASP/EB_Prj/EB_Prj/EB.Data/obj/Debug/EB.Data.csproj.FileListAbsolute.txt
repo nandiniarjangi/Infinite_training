@@ -1,0 +1,5 @@
+C:\Users\nandiniar\Documents\personal infinite training file\EB_Prj\EB_Prj\EB.Data\bin\Debug\EB.Data.dll
+C:\Users\nandiniar\Documents\personal infinite training file\EB_Prj\EB_Prj\EB.Data\bin\Debug\EB.Data.pdb
+C:\Users\nandiniar\Documents\personal infinite training file\EB_Prj\EB_Prj\EB.Data\obj\Debug\EB.Data.csproj.CoreCompileInputs.cache
+C:\Users\nandiniar\Documents\personal infinite training file\EB_Prj\EB_Prj\EB.Data\obj\Debug\EB.Data.dll
+C:\Users\nandiniar\Documents\personal infinite training file\EB_Prj\EB_Prj\EB.Data\obj\Debug\EB.Data.pdb
