@@ -1,0 +1,30 @@
+﻿
+@model IEnumerable<Cfirst.Models.Movie>
+
+@{
+    ViewBag.Title = "Movies List";
+}
+
+<h2>Movies List</h2>
+
+<table class="table">
+    <tr>
+        <th>Movie Name</th>
+        <th>Date of Release</th>
+        <th>Actions</th>
+    </tr>
+
+    @foreach (var movie in Model)
+    {
+        <tr>
+            <td>@movie.Moviename</td>
+            <td>@movie.DateofRelease.ToShortDateString()</td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = movie.Mid })
+                @Html.ActionLink("Delete", "Delete", new { id = movie.Mid })
+                @Html.ActionLink("View Movies from 2020", "MoviesByYear", new { year = 2020 })
+
+            </td>
+        </tr>
+    }
+</table>
