@@ -1,0 +1,2 @@
+C:\Users\nandiniar\Documents\personal infinite training file\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.AssemblyReference.cache
+C:\Users\nandiniar\Documents\personal infinite training file\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CoreCompileInputs.cache
